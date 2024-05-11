@@ -1,0 +1,8 @@
+.APODImg{
+    height: 180px;
+    width: 180px;
+}
+
+.ApodText{
+    color: var(--text);
+}

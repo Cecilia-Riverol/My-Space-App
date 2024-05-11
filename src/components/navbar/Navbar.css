@@ -1,0 +1,38 @@
+
+nav {
+position: fixed;
+top: 0;
+left: 0;
+margin: 0;
+width: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+background-color: var(--secondary);
+
+}
+
+nav > div {
+display: flex;
+flex-direction: row;
+justify-content: center;
+text-align: center;
+gap: 15px;
+}
+
+.LinkMenu{
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    font-size: large;
+    text-decoration: none;
+    color: var(--terciary);
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.LinkMenu:hover{
+    transition: 0.3s ease-in;
+    background-color: #e6d0a1dc;
+}
